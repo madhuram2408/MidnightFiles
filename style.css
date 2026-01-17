@@ -1,0 +1,48 @@
+body {
+    background: 
+        linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+        url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXRtMGt6OHk3cjNwamM2ZzhlaGc1ZGRmYzRjbndnZWNpa2diaXNjYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DEDlr2olCQ9mTlX6rZ/giphy.gif") no-repeat center center fixed;
+    background-size: cover;
+    color: #e60000;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 3em;
+    text-shadow: 0 0 15px red;
+}
+
+.tagline {
+    color: #aaa;
+    margin-bottom: 30px;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    background: black;
+    border: 1px solid red;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    background: darkred;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: crimson;
+}
+
+.crime-card {
+    background: #111;
+    border: 1px solid red;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 0 0 10px red;
+}
